@@ -12,7 +12,7 @@ https://github.com/Michael-Evans-Savitar/DriveSplat/blob/main/assets/006.mp4
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
     <div>
         <video width="100%" controls>
-            <source src="https://github.com/Michael-Evans-Savitar/DriveSplat/main/blob/assets/006.mp4" type="video/mp4">
+            <source src="https://github.com/Michael-Evans-Savitar/DriveSplat/blob/main/assets/006.mp4" type="video/mp4">
             您的浏览器不支持视频标签
         </video>
         <p align="center">Scene 006</p>
