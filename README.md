@@ -7,6 +7,7 @@ We introduce DriveSplat, a high-quality reconstruction method for driving scenar
 # 👀 Demo
 
 https://github.com/Michael-Evans-Savitar/DriveSplat/assets/006.mp4
+https://github.com/Michael-Evans-Savitar/DriveSplat/blob/main/assets/006.mp4
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
     <div>
