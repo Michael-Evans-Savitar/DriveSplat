@@ -8,41 +8,41 @@ We introduce DriveSplat, a high-quality reconstruction method for driving scenar
 <table>
   <tr>
     <td align="center">
-      <img src="assets/4月17日.gif" width="100%">
+      <img src="assets/006.gif" width="100%">
       <p align="center">Scene 006</p>
     </td>
     <td align="center">
-      <img src="assets/4月17日.gif" width="100%">
+      <img src="assets/026.gif" width="100%">
       <p align="center">Scene 026</p>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="assets/4月17日.gif" width="100%">
+      <img src="assets/090.gif" width="100%">
       <p align="center">Scene 090</p>
     </td>
     <td align="center">
-      <img src="assets/4月17日.gif" width="100%">
+      <img src="assets/105.gif" width="100%">
       <p align="center">Scene 105</p>
     </td>
   </tr>
   <tr>
       <td align="center">
-      <img src="assets/4月17日.gif" width="100%">
+      <img src="assets/108.gif" width="100%">
       <p align="center">Scene 108</p>
     </td>
     <td align="center">
-      <img src="assets/4月17日.gif" width="100%">
+      <img src="assets/134.gif" width="100%">
       <p align="center">Scene 134</p>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="assets/4月17日.gif" width="100%">
+      <img src="assets/150.gif" width="100%">
       <p align="center">Scene 150</p>
     </td>
     <td align="center">
-      <img src="assets/4月17日.gif" width="100%">
+      <img src="assets/181.gif" width="100%">
       <p align="center">Scene 181</p>
     </td>
   </tr>
