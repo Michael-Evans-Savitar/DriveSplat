@@ -1,0 +1,19 @@
+name: drive
+channels:
+  - pytorch
+  - nvidia
+  - pyg
+  - defaults
+dependencies:
+  - python=3.7
+  - pip=22.3.1
+  - pytorch=1.13.0
+  - torchvision=0.14.0
+  - torchaudio=0.13.0
+  - pytorch-cuda=11.7
+  - pytorch-scatter=2.1.1
+  - pip:
+      - -r requirements.txt
+      - submodules/diff-gaussian-rasterization
+      - submodules/simple-knn
+      - submodules/simple-waymo-open-dataset-reader

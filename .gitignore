@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.o
+*.a
+*.dll
+*.dylib
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+venv/
+
+# Local data and experiment outputs
+data/
+datasets/
+outputs/
+logs/
+wandb/
+checkpoints/
+*.log
+*.mp4
+*.npy
+*.npz
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.dump
+*.out
+*.err
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+.cursor/
+.history/
+.log_images/
+
+# Build artifacts
+build/
+dist/
+.verification_tmp/
