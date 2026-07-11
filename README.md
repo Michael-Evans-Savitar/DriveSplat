@@ -2,7 +2,7 @@
 
 This is the official code release for **DriveSplat: Unified Neural Gaussian Reconstruction for Dynamic Driving Scenes**.
 
-DriveSplat reconstructs dynamic driving scenes with neural Gaussian anchors, hash-based level-of-detail modeling, and anchor-conditioned deformation for non-rigid actors. The repository contains training, rendering, and dataset-preparation code. Datasets, checkpoints, logs, rendered videos, evaluation scripts, and other generated experiment artifacts are intentionally not included.
+DriveSplat reconstructs dynamic driving scenes with neural Gaussian anchors, hash-based level-of-detail modeling, and anchor-conditioned deformation for non-rigid actors.
 
 ## Overview
 
@@ -234,7 +234,7 @@ The release includes one example config:
 - Hash LOD controls: `use_hash_encoding`, `hash_levels`, `anchor_generation_levels`
 - Optional priors: `use_depth`, `use_normal`
 
-When adding a new scene, copy `arguments/waymo_default.py`, update `selected_frames`, camera selection, and loss/prior settings, then pass it through `--configs`. Internal scene-specific and ablation configs are intentionally not included in the release tree.
+When adding a new scene, copy `arguments/waymo_default.py`, update `selected_frames`, camera selection, and loss/prior settings, then pass it through `--configs`. 
 
 ## Training
 
@@ -264,7 +264,6 @@ Train a KITTI sequence:
 GPU=0 bash scripts/run_kitti.sh 01 /path/to/kitti/processed outputs/kitti/paper
 ```
 
-The wrapper scripts export `CUDA_VISIBLE_DEVICES=${GPU}` before Python imports PyTorch. Prefer `GPU=<physical_gpu_id>` with the scripts on multi-GPU servers; this avoids accidentally inheriting a stale `CUDA_VISIBLE_DEVICES` value from the shell.
 
 ## Rendering
 
@@ -298,17 +297,11 @@ outputs/waymo/paper/026/
   log_images/
 ```
 
-These directories are generated artifacts and should not be committed.
 
-## Notes
-
-- The repository's `.gitignore` excludes datasets, checkpoints, logs, rendered videos, `wandb/`, compiled extensions, and cache files.
-- For public release, keep the vendored CUDA extension source under `submodules/diff-gaussian-rasterization`; do not commit compiled `.so` files.
-- If you change CUDA, PyTorch, or GPU architecture, rebuild the local CUDA extensions.
 
 ## Acknowledgements
 
-This codebase builds on ideas and components from 3D Gaussian Splatting, Street Gaussians, DriveStudio / OmniRe, GroundingDINO, SAM, and the Waymo Open Dataset tooling. The differentiable rasterizer includes DriveSplat-specific modifications for depth, alpha, and semantic rendering.
+This codebase builds on ideas and components from 3D Gaussian Splatting, Street Gaussians, OmniRe, Octree-GS, GroundingDINO, SAM, and the Waymo Open Dataset tooling. The differentiable rasterizer includes DriveSplat-specific modifications for depth, alpha, and semantic rendering.
 
 ## Citation
 
